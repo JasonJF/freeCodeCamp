@@ -11,9 +11,9 @@ function mutation(arr) {
   str2.sort();
   //check if all characters of str1 is present in str2
   
-  for(let i = 0; i < str1.length; i++){
-    for(let j = 0; j < str2.length; j++){
-      if(str1[i] == str2[j]){
+  for(let i = 0; i < str2.length; i++){
+    for(let j = 0; j < str1.length; j++){
+      if(str2[i] == str1[j]){
         match = true;
         break;
       }
